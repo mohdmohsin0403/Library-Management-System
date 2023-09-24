@@ -1,0 +1,66 @@
+.homepage {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make it full viewport height */
+    width: 100vh;
+    background-image: url('background.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; /* Set the default text color to white */
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgba(0, 116, 217, 0.8); /* Semi-transparent background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    color: #fff; /* Set the text color to white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9; /* Button background color */
+    color: #f6f2f2; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  footer {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 20px;
+  }
+  

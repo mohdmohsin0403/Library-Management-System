@@ -1,0 +1,96 @@
+/* Center the login form and provide background image */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make it full viewport height */
+    width: max-;
+    background: url('bg.jpeg') center/cover no-repeat;
+    /* Replace 'path/to/soothing-image.jpg' with your soothing image path */
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+    padding-top: 0px ;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  /* White box container for the login details */
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background color for the box */
+    padding: 20px; /* Add padding inside the box */
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Add a border to the box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a raised effect */
+    max-width: 400px;
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  /* Center the form elements */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0074d9; /* Font color for the "Login" heading */
+    font-size: 24px; /* Font size for the "Login" heading */
+  }
+  
+  /* Style for "Email" and "Password" labels */
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Font color for labels */
+  }
+  
+  /* Style for input fields */
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333; /* Font color for input fields */
+  }
+  
+  /* Style for the "Login" button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the error message */
+  .error-message {
+    color: #ff0000; /* Red color for error message */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Style for the "If you don't have an account" link */
+  p {
+    text-align: center;
+    margin-top: 20px;
+    color: #0074d9; /* Font color for the link text */
+    font-size: 16px; /* Font size for the link text */
+  }
+  
+  p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0074d9; /* Font color for the link */
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  

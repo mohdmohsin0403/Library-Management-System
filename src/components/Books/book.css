@@ -1,0 +1,93 @@
+/* src/components/Books.css */
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+.books-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: max-content;
+  }
+  
+  .books-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0074d9;
+  }
+  
+  .search-input {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    grid-gap: 20px;
+  }
+  
+  .book-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .book-author {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .book-info {
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .book-availability {
+    color: #0074d9;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Book Description Styles */
+  .book-description {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the element */
+    z-index: 999; /* Ensure it appears above other content */
+  }
+  
+  /* Style the close button */
+  .book-description button {
+    background-color: #ff4136; /* Red background for the close button */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
+  
